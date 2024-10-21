@@ -7,3 +7,12 @@ G:\2DAM\DI\trabajoGrande\Gimnasio\Gimnasio\Negocio\obj\Debug\Negocio.csproj.Core
 G:\2DAM\DI\trabajoGrande\Gimnasio\Gimnasio\Negocio\obj\Debug\Negocio.csproj.Up2Date
 G:\2DAM\DI\trabajoGrande\Gimnasio\Gimnasio\Negocio\obj\Debug\Negocio.dll
 G:\2DAM\DI\trabajoGrande\Gimnasio\Gimnasio\Negocio\obj\Debug\Negocio.pdb
+D:\Unaii\Negocio\bin\Debug\Negocio.dll
+D:\Unaii\Negocio\bin\Debug\Negocio.pdb
+D:\Unaii\Negocio\bin\Debug\Datos.dll
+D:\Unaii\Negocio\bin\Debug\Datos.pdb
+D:\Unaii\Negocio\obj\Debug\Negocio.csproj.AssemblyReference.cache
+D:\Unaii\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+D:\Unaii\Negocio\obj\Debug\Negocio.csproj.Up2Date
+D:\Unaii\Negocio\obj\Debug\Negocio.dll
+D:\Unaii\Negocio\obj\Debug\Negocio.pdb
