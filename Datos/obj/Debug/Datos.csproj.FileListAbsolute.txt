@@ -1,0 +1,6 @@
+G:\2DAM\DI\trabajoGrande\Gimnasio\Gimnasio\Datos\bin\Debug\Datos.dll
+G:\2DAM\DI\trabajoGrande\Gimnasio\Gimnasio\Datos\bin\Debug\Datos.pdb
+G:\2DAM\DI\trabajoGrande\Gimnasio\Gimnasio\Datos\obj\Debug\Datos.csproj.AssemblyReference.cache
+G:\2DAM\DI\trabajoGrande\Gimnasio\Gimnasio\Datos\obj\Debug\Datos.csproj.CoreCompileInputs.cache
+G:\2DAM\DI\trabajoGrande\Gimnasio\Gimnasio\Datos\obj\Debug\Datos.dll
+G:\2DAM\DI\trabajoGrande\Gimnasio\Gimnasio\Datos\obj\Debug\Datos.pdb

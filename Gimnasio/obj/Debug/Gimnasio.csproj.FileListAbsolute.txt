@@ -1,0 +1,14 @@
+G:\2DAM\DI\trabajoGrande\Gimnasio\Gimnasio\Gimnasio\bin\Debug\Gimnasio.exe.config
+G:\2DAM\DI\trabajoGrande\Gimnasio\Gimnasio\Gimnasio\bin\Debug\Gimnasio.exe
+G:\2DAM\DI\trabajoGrande\Gimnasio\Gimnasio\Gimnasio\bin\Debug\Gimnasio.pdb
+G:\2DAM\DI\trabajoGrande\Gimnasio\Gimnasio\Gimnasio\bin\Debug\Negocio.dll
+G:\2DAM\DI\trabajoGrande\Gimnasio\Gimnasio\Gimnasio\bin\Debug\Negocio.pdb
+G:\2DAM\DI\trabajoGrande\Gimnasio\Gimnasio\Gimnasio\obj\Debug\Gimnasio.csproj.AssemblyReference.cache
+G:\2DAM\DI\trabajoGrande\Gimnasio\Gimnasio\Gimnasio\obj\Debug\Gimnasio.Properties.Resources.resources
+G:\2DAM\DI\trabajoGrande\Gimnasio\Gimnasio\Gimnasio\obj\Debug\Gimnasio.csproj.GenerateResource.cache
+G:\2DAM\DI\trabajoGrande\Gimnasio\Gimnasio\Gimnasio\obj\Debug\Gimnasio.csproj.CoreCompileInputs.cache
+G:\2DAM\DI\trabajoGrande\Gimnasio\Gimnasio\Gimnasio\obj\Debug\Gimnasio.csproj.Up2Date
+G:\2DAM\DI\trabajoGrande\Gimnasio\Gimnasio\Gimnasio\obj\Debug\Gimnasio.exe
+G:\2DAM\DI\trabajoGrande\Gimnasio\Gimnasio\Gimnasio\obj\Debug\Gimnasio.pdb
+G:\2DAM\DI\trabajoGrande\Gimnasio\Gimnasio\Gimnasio\obj\Debug\Gimnasio.Form1.resources
+G:\2DAM\DI\trabajoGrande\Gimnasio\Gimnasio\Gimnasio\obj\Debug\Gimnasio.Views.Login.resources
