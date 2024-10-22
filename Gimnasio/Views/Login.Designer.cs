@@ -36,13 +36,14 @@
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.bAtras = new System.Windows.Forms.Button();
+            this.lError = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // lGmail
             // 
             this.lGmail.AutoSize = true;
-            this.lGmail.Location = new System.Drawing.Point(41, 235);
+            this.lGmail.Location = new System.Drawing.Point(130, 238);
             this.lGmail.Name = "lGmail";
             this.lGmail.Size = new System.Drawing.Size(40, 13);
             this.lGmail.TabIndex = 0;
@@ -51,7 +52,7 @@
             // lContra
             // 
             this.lContra.AutoSize = true;
-            this.lContra.Location = new System.Drawing.Point(23, 284);
+            this.lContra.Location = new System.Drawing.Point(112, 287);
             this.lContra.Name = "lContra";
             this.lContra.Size = new System.Drawing.Size(81, 13);
             this.lContra.TabIndex = 1;
@@ -59,40 +60,51 @@
             // 
             // bBorrar
             // 
-            this.bBorrar.Location = new System.Drawing.Point(64, 367);
+            this.bBorrar.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            this.bBorrar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.bBorrar.Location = new System.Drawing.Point(153, 370);
             this.bBorrar.Name = "bBorrar";
             this.bBorrar.Size = new System.Drawing.Size(75, 23);
             this.bBorrar.TabIndex = 2;
             this.bBorrar.Text = "Borrar";
+<<<<<<< Updated upstream
             this.bBorrar.UseVisualStyleBackColor = true;
+=======
+            this.bBorrar.UseVisualStyleBackColor = false;
+            this.bBorrar.Click += new System.EventHandler(this.bBorrar_Click);
+>>>>>>> Stashed changes
             // 
             // bAceptar
             // 
-            this.bAceptar.Location = new System.Drawing.Point(206, 367);
+            this.bAceptar.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            this.bAceptar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.bAceptar.Location = new System.Drawing.Point(295, 370);
             this.bAceptar.Name = "bAceptar";
             this.bAceptar.Size = new System.Drawing.Size(75, 23);
             this.bAceptar.TabIndex = 3;
             this.bAceptar.Text = "Aceptar";
-            this.bAceptar.UseVisualStyleBackColor = true;
+            this.bAceptar.UseVisualStyleBackColor = false;
+            this.bAceptar.Click += new System.EventHandler(this.bAceptar_Click_1);
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(110, 232);
+            this.textBox1.Location = new System.Drawing.Point(199, 235);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(171, 20);
             this.textBox1.TabIndex = 4;
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(110, 281);
+            this.textBox2.Location = new System.Drawing.Point(199, 284);
             this.textBox2.Name = "textBox2";
+            this.textBox2.PasswordChar = '*';
             this.textBox2.Size = new System.Drawing.Size(171, 20);
             this.textBox2.TabIndex = 5;
             // 
             // pictureBox2
             // 
             this.pictureBox2.Image = global::Gimnasio.Properties.Resources.logoGym;
-            this.pictureBox2.Location = new System.Drawing.Point(64, 50);
+            this.pictureBox2.Location = new System.Drawing.Point(153, 53);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(204, 136);
             this.pictureBox2.TabIndex = 6;
@@ -108,9 +120,19 @@
             this.bAtras.UseVisualStyleBackColor = true;
             this.bAtras.Click += new System.EventHandler(this.bAtras_Click);
             // 
+            // lError
+            // 
+            this.lError.AutoSize = true;
+            this.lError.ForeColor = System.Drawing.Color.Red;
+            this.lError.Location = new System.Drawing.Point(244, 325);
+            this.lError.Name = "lError";
+            this.lError.Size = new System.Drawing.Size(0, 13);
+            this.lError.TabIndex = 8;
+            // 
             // Login
             // 
-            this.ClientSize = new System.Drawing.Size(320, 459);
+            this.ClientSize = new System.Drawing.Size(521, 458);
+            this.Controls.Add(this.lError);
             this.Controls.Add(this.bAtras);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.textBox2);
@@ -119,7 +141,10 @@
             this.Controls.Add(this.bBorrar);
             this.Controls.Add(this.lContra);
             this.Controls.Add(this.lGmail);
+            this.MaximumSize = new System.Drawing.Size(537, 497);
+            this.MinimumSize = new System.Drawing.Size(537, 497);
             this.Name = "Login";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -137,5 +162,6 @@
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Button bAtras;
+        private System.Windows.Forms.Label lError;
     }
 }
