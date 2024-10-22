@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="equipo_c_dbModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="actividades">
+    <Key>
+      <PropertyRef Name="fecha_actividad" />
+      <PropertyRef Name="nombre" />
+    </Key>
+    <Property Name="fecha_actividad" Type="datetime" Nullable="false" />
+    <Property Name="nombre" Type="varchar" MaxLength="60" Nullable="false" />
+    <Property Name="monitor" Type="varchar" MaxLength="9" />
+    <Property Name="valoracion" Type="tinyint" />
+  </EntityType>
+  <EntityType Name="usuarios">
+    <Key>
+      <PropertyRef Name="DNI" />
+    </Key>
+    <Property Name="DNI" Type="varchar" MaxLength="9" Nullable="false" />
+    <Property Name="EMAIL" Type="varchar" MaxLength="150" Nullable="false" />
+    <Property Name="PASS" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="NOMBRE" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="APELLIDOS" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="TELEFONO" Type="int" />
+    <Property Name="DIRECCION" Type="varchar" MaxLength="100" />
+    <Property Name="CCC" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="PRIVILEGIO" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_Actividades_Usuarios">
+    <End Role="usuarios" Type="Self.usuarios" Multiplicity="0..1" />
+    <End Role="actividades" Type="Self.actividades" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="usuarios">
+        <PropertyRef Name="DNI" />
+      </Principal>
+      <Dependent Role="actividades">
+        <PropertyRef Name="monitor" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="equipo_c_dbModelStoreContainer">
+    <EntitySet Name="actividades" EntityType="Self.actividades" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="usuarios" EntityType="Self.usuarios" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Actividades_Usuarios" Association="Self.FK_Actividades_Usuarios">
+      <End Role="usuarios" EntitySet="usuarios" />
+      <End Role="actividades" EntitySet="actividades" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

@@ -31,8 +31,17 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -42,11 +51,58 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
+    <Compile Include="Infraestructures\actividades.cs">
+      <DependentUpon>equipo_c_db.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Infraestructures\equipo_c_db.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>equipo_c_db.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Infraestructures\equipo_c_db.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>equipo_c_db.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Infraestructures\equipo_c_db.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>equipo_c_db.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Infraestructures\usuarios.cs">
+      <DependentUpon>equipo_c_db.tt</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositories\PruebaDeConexion.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <EntityDeploy Include="Infraestructures\equipo_c_db.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>equipo_c_db.Designer.cs</LastGenOutput>
+    </EntityDeploy>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Infraestructure\" />
-    <Folder Include="Repositories\" />
+    <None Include="App.Config" />
+    <None Include="Infraestructures\equipo_c_db.edmx.diagram">
+      <DependentUpon>equipo_c_db.edmx</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Infraestructures\equipo_c_db.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>equipo_c_db.Context.cs</LastGenOutput>
+      <DependentUpon>equipo_c_db.edmx</DependentUpon>
+    </Content>
+    <Content Include="Infraestructures\equipo_c_db.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>equipo_c_db.edmx</DependentUpon>
+      <LastGenOutput>equipo_c_db.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

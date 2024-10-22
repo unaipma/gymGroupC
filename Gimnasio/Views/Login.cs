@@ -19,9 +19,14 @@ namespace Gimnasio.Views
 
         private void bAtras_Click(object sender, EventArgs e)
         {
-            Form1 form1 = new Form1();
-            form1.Show();
+            
             this.Close();
+        }
+
+        private void bBorrar_Click(object sender, EventArgs e)
+        {
+            textBox1.ResetText();
+            textBox2.ResetText();
         }
     }
 }

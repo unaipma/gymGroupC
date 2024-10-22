@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="equipo_c_dbModelStoreContainer" CdmEntityContainer="equipo_c_dbEntities">
+    <EntitySetMapping Name="actividades">
+      <EntityTypeMapping TypeName="equipo_c_dbModel.actividades">
+        <MappingFragment StoreEntitySet="actividades">
+          <ScalarProperty Name="fecha_actividad" ColumnName="fecha_actividad" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="monitor" ColumnName="monitor" />
+          <ScalarProperty Name="valoracion" ColumnName="valoracion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="usuarios">
+      <EntityTypeMapping TypeName="equipo_c_dbModel.usuarios">
+        <MappingFragment StoreEntitySet="usuarios">
+          <ScalarProperty Name="DNI" ColumnName="DNI" />
+          <ScalarProperty Name="EMAIL" ColumnName="EMAIL" />
+          <ScalarProperty Name="PASS" ColumnName="PASS" />
+          <ScalarProperty Name="NOMBRE" ColumnName="NOMBRE" />
+          <ScalarProperty Name="APELLIDOS" ColumnName="APELLIDOS" />
+          <ScalarProperty Name="TELEFONO" ColumnName="TELEFONO" />
+          <ScalarProperty Name="DIRECCION" ColumnName="DIRECCION" />
+          <ScalarProperty Name="CCC" ColumnName="CCC" />
+          <ScalarProperty Name="PRIVILEGIO" ColumnName="PRIVILEGIO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

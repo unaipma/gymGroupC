@@ -1,9 +1,11 @@
-﻿using System;
+﻿using Gimnasio.Views;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Reflection.Emit;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -20,13 +22,23 @@ namespace Gimnasio
         private void bInicioSesion_Click(object sender, EventArgs e)
         {
             Views.Login login = new Views.Login();
-            login.Show();
-            this.Close();
+            login.ShowDialog();
+            
         }
 
         private void bRegistrarse_Click(object sender, EventArgs e)
         {
-
+            Views.Register register= new Views.Register();
+            register.ShowDialog();
+            
         }
-    }
+
+		private void bConexionTest_Click(object sender, EventArgs e)
+		{
+			if (new Negocio.Management.PruebaDeConexion().GetPruebaDeConexion())
+			{
+                MessageBox.Show("Conexion Correcta");
+			}
+		}
+	}
 }
