@@ -1,5 +1,6 @@
 {
   "Version": 1,
+<<<<<<< Updated upstream
   "WorkspaceRootPath": "G:\\2DAM\\DI\\trabajoGrande\\Gimnasio\\Gimnasio\\gymGroupC\\",
   "Documents": [
     {
@@ -13,6 +14,37 @@
     {
       "AbsoluteMoniker": "D:0:0:{929AF8A9-06E2-4F6A-BD81-6039D224EB3F}|Gimnasio\\Gimnasio.csproj|g:\\2dam\\di\\trabajogrande\\gimnasio\\gimnasio\\gymgroupc\\gimnasio\\views\\aplicacionprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{929AF8A9-06E2-4F6A-BD81-6039D224EB3F}|Gimnasio\\Gimnasio.csproj|solutionrelative:gimnasio\\views\\aplicacionprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+=======
+  "WorkspaceRootPath": "C:\\Users\\Vespertino\\Desktop\\gymGroupC\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{929AF8A9-06E2-4F6A-BD81-6039D224EB3F}|Gimnasio\\Gimnasio.csproj|c:\\users\\vespertino\\desktop\\gymgroupc\\gimnasio\\views\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{929AF8A9-06E2-4F6A-BD81-6039D224EB3F}|Gimnasio\\Gimnasio.csproj|solutionrelative:gimnasio\\views\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{929AF8A9-06E2-4F6A-BD81-6039D224EB3F}|Gimnasio\\Gimnasio.csproj|C:\\Users\\Vespertino\\Desktop\\gymGroupC\\gimnasio\\views\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{929AF8A9-06E2-4F6A-BD81-6039D224EB3F}|Gimnasio\\Gimnasio.csproj|solutionrelative:gimnasio\\views\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{929AF8A9-06E2-4F6A-BD81-6039D224EB3F}|Gimnasio\\Gimnasio.csproj|C:\\Users\\Vespertino\\Desktop\\gymGroupC\\gimnasio\\views\\login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{929AF8A9-06E2-4F6A-BD81-6039D224EB3F}|Gimnasio\\Gimnasio.csproj|solutionrelative:gimnasio\\views\\login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{929AF8A9-06E2-4F6A-BD81-6039D224EB3F}|Gimnasio\\Gimnasio.csproj|C:\\Users\\Vespertino\\Desktop\\gymGroupC\\gimnasio\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{929AF8A9-06E2-4F6A-BD81-6039D224EB3F}|Gimnasio\\Gimnasio.csproj|solutionrelative:gimnasio\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{929AF8A9-06E2-4F6A-BD81-6039D224EB3F}|Gimnasio\\Gimnasio.csproj|C:\\Users\\Vespertino\\Desktop\\gymGroupC\\gimnasio\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{929AF8A9-06E2-4F6A-BD81-6039D224EB3F}|Gimnasio\\Gimnasio.csproj|solutionrelative:gimnasio\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{929AF8A9-06E2-4F6A-BD81-6039D224EB3F}|Gimnasio\\Gimnasio.csproj|C:\\Users\\Vespertino\\Desktop\\gymGroupC\\gimnasio\\views\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{929AF8A9-06E2-4F6A-BD81-6039D224EB3F}|Gimnasio\\Gimnasio.csproj|solutionrelative:gimnasio\\views\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{929AF8A9-06E2-4F6A-BD81-6039D224EB3F}|Gimnasio\\Gimnasio.csproj|C:\\Users\\Vespertino\\Desktop\\gymGroupC\\gimnasio\\views\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{929AF8A9-06E2-4F6A-BD81-6039D224EB3F}|Gimnasio\\Gimnasio.csproj|solutionrelative:gimnasio\\views\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+>>>>>>> Stashed changes
     }
   ],
   "DocumentGroupContainers": [
@@ -22,6 +54,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< Updated upstream
           "SelectedChildIndex": 1,
           "Children": [
             {
@@ -35,16 +68,67 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-22T17:11:53.286Z",
               "EditorCaption": " [Dise\u00F1o]"
+=======
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Login.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Vespertino\\Desktop\\gymGroupC\\Gimnasio\\Views\\Login.Designer.cs",
+              "RelativeDocumentMoniker": "Gimnasio\\Views\\Login.Designer.cs",
+              "ToolTip": "C:\\Users\\Vespertino\\Desktop\\gymGroupC\\Gimnasio\\Views\\Login.Designer.cs",
+              "RelativeToolTip": "Gimnasio\\Views\\Login.Designer.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAiwE0AAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T15:03:29.73Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Vespertino\\Desktop\\gymGroupC\\Gimnasio\\Form1.cs",
+              "RelativeDocumentMoniker": "Gimnasio\\Form1.cs",
+              "ToolTip": "C:\\Users\\Vespertino\\Desktop\\gymGroupC\\Gimnasio\\Form1.cs",
+              "RelativeToolTip": "Gimnasio\\Form1.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAiwB4AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T15:03:01.605Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Register.cs",
+              "DocumentMoniker": "C:\\Users\\Vespertino\\Desktop\\gymGroupC\\Gimnasio\\Views\\Register.cs",
+              "RelativeDocumentMoniker": "Gimnasio\\Views\\Register.cs",
+              "ToolTip": "C:\\Users\\Vespertino\\Desktop\\gymGroupC\\Gimnasio\\Views\\Register.cs",
+              "RelativeToolTip": "Gimnasio\\Views\\Register.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAIwA8AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T14:59:26.192Z"
+>>>>>>> Stashed changes
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Login.cs",
+<<<<<<< Updated upstream
               "DocumentMoniker": "G:\\2DAM\\DI\\trabajoGrande\\Gimnasio\\Gimnasio\\gymGroupC\\Gimnasio\\Views\\Login.cs",
               "RelativeDocumentMoniker": "Gimnasio\\Views\\Login.cs",
               "ToolTip": "G:\\2DAM\\DI\\trabajoGrande\\Gimnasio\\Gimnasio\\gymGroupC\\Gimnasio\\Views\\Login.cs",
               "RelativeToolTip": "Gimnasio\\Views\\Login.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAAUwCMAAAAMAAAAAAAAAA==",
+=======
+              "DocumentMoniker": "C:\\Users\\Vespertino\\Desktop\\gymGroupC\\Gimnasio\\Views\\Login.cs",
+              "RelativeDocumentMoniker": "Gimnasio\\Views\\Login.cs",
+              "ToolTip": "C:\\Users\\Vespertino\\Desktop\\gymGroupC\\Gimnasio\\Views\\Login.cs",
+              "RelativeToolTip": "Gimnasio\\Views\\Login.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAQwBAAAAAbAAAAAAAAAA==",
+>>>>>>> Stashed changes
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-21T17:43:04.362Z",
               "EditorCaption": ""
@@ -53,6 +137,7 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Login.cs [Dise\u00F1o]",
+<<<<<<< Updated upstream
               "DocumentMoniker": "G:\\2DAM\\DI\\trabajoGrande\\Gimnasio\\Gimnasio\\gymGroupC\\Gimnasio\\Views\\Login.cs",
               "RelativeDocumentMoniker": "Gimnasio\\Views\\Login.cs",
               "ToolTip": "G:\\2DAM\\DI\\trabajoGrande\\Gimnasio\\Gimnasio\\gymGroupC\\Gimnasio\\Views\\Login.cs [Dise\u00F1o]",
@@ -60,6 +145,36 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-21T17:42:58.101Z",
               "EditorCaption": " [Dise\u00F1o]"
+=======
+              "DocumentMoniker": "C:\\Users\\Vespertino\\Desktop\\gymGroupC\\Gimnasio\\Views\\Login.cs",
+              "RelativeDocumentMoniker": "Gimnasio\\Views\\Login.cs",
+              "ToolTip": "C:\\Users\\Vespertino\\Downloads\\gymGroupC-cris\\gymGroupC-cris\\Gimnasio\\Views\\Login.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\Downloads\\gymGroupC-cris\\gymGroupC-cris\\Gimnasio\\Views\\Login.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T14:59:12.798Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Vespertino\\Desktop\\gymGroupC\\Gimnasio\\Form1.cs",
+              "RelativeDocumentMoniker": "Gimnasio\\Form1.cs",
+              "ToolTip": "C:\\Users\\Vespertino\\Downloads\\gymGroupC-cris\\gymGroupC-cris\\Gimnasio\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\Downloads\\gymGroupC-cris\\gymGroupC-cris\\Gimnasio\\Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T14:59:02.615Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Register.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Vespertino\\Desktop\\gymGroupC\\Gimnasio\\Views\\Register.cs",
+              "RelativeDocumentMoniker": "Gimnasio\\Views\\Register.cs",
+              "ToolTip": "C:\\Users\\Vespertino\\Downloads\\gymGroupC-cris\\gymGroupC-cris\\Gimnasio\\Views\\Register.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\Downloads\\gymGroupC-cris\\gymGroupC-cris\\Gimnasio\\Views\\Register.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T14:58:56.311Z"
+>>>>>>> Stashed changes
             }
           ]
         }

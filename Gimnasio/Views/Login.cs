@@ -13,6 +13,8 @@ namespace Gimnasio.Views
 {
     public partial class Login : Form
     {
+        
+        //comentario prueba
         public Login()
         {
             InitializeComponent();
