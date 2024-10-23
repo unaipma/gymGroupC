@@ -59,6 +59,7 @@
             this.btnRegister.TabIndex = 0;
             this.btnRegister.Text = "Registrar";
             this.btnRegister.UseVisualStyleBackColor = true;
+            this.btnRegister.Click += new System.EventHandler(this.btnRegister_Click);
             // 
             // btnBorrar
             // 
@@ -254,6 +255,7 @@
             this.Controls.Add(this.btnRegister);
             this.Name = "Register";
             this.Text = "Register";
+            this.Load += new System.EventHandler(this.Register_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

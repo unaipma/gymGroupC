@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="equipo_c_dbModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="actividades">
+    <Key>
+      <PropertyRef Name="fecha_actividad" />
+      <PropertyRef Name="nombre" />
+    </Key>
+    <Property Name="fecha_actividad" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="nombre" Type="String" MaxLength="60" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="monitor" Type="String" MaxLength="9" FixedLength="false" Unicode="false" />
+    <Property Name="valoracion" Type="Byte" />
+    <NavigationProperty Name="usuarios" Relationship="Self.FK_Actividades_Usuarios" FromRole="actividades" ToRole="usuarios" />
+  </EntityType>
+  <EntityType Name="usuarios">
+    <Key>
+      <PropertyRef Name="DNI" />
+    </Key>
+    <Property Name="DNI" Type="String" MaxLength="9" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="EMAIL" Type="String" MaxLength="150" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="PASS" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="NOMBRE" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="APELLIDOS" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="TELEFONO" Type="Int32" />
+    <Property Name="DIRECCION" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="CCC" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="PRIVILEGIO" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="actividades" Relationship="Self.FK_Actividades_Usuarios" FromRole="usuarios" ToRole="actividades" />
+  </EntityType>
+  <Association Name="FK_Actividades_Usuarios">
+    <End Role="usuarios" Type="Self.usuarios" Multiplicity="0..1" />
+    <End Role="actividades" Type="Self.actividades" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="usuarios">
+        <PropertyRef Name="DNI" />
+      </Principal>
+      <Dependent Role="actividades">
+        <PropertyRef Name="monitor" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="equipo_c_dbEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="actividades" EntityType="Self.actividades" />
+    <EntitySet Name="usuarios" EntityType="Self.usuarios" />
+    <AssociationSet Name="FK_Actividades_Usuarios" Association="Self.FK_Actividades_Usuarios">
+      <End Role="usuarios" EntitySet="usuarios" />
+      <End Role="actividades" EntitySet="actividades" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -12,6 +13,7 @@ namespace Gimnasio.Views
 {
     public partial class Register : Form
     {
+        bool compruebaregistro = false;
         public Register()
         {
             InitializeComponent();
@@ -44,6 +46,25 @@ namespace Gimnasio.Views
         private void btnVolver_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void Register_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnRegister_Click(object sender, EventArgs e)
+        {
+
+        }
+        private void compruebaCampos()
+        {
+
+            if (tbNombre.TextLength != 0 && tbApellidos.TextLength != 0 && tbTelefono.TextLength != 9 && Regex.IsMatch(tbTelefono.Text, "^[0-9]+$") && tbDireccion.TextLength != 0 && Regex.IsMatch(tbDNI.Text, @"^\d{8}[A-Za-z]$") &&
+                Regex.IsMatch(tbEmail.Text, @"^[^@\s]+@[^@\s]+\.[^@\s]+$") && Regex.IsMatch(tbContraseña.Text, @"^(?=.*[A-Z])(?=.*[a-z])(?=.*\d)(?=.*[%&$/\*])[A-Za-z\d%&$/\*]{8,}$") && tbCuentaCorriente.TextLength > 20)
+            {
+                compruebaregistro = true;
+            }
         }
     }
 }
