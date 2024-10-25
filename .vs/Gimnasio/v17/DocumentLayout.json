@@ -1,0 +1,166 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "G:\\damdaw2\\proyecto ESTE\\gymGroupC\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{929AF8A9-06E2-4F6A-BD81-6039D224EB3F}|Gimnasio\\Gimnasio.csproj|g:\\damdaw2\\proyecto este\\gymgroupc\\gimnasio\\views\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{929AF8A9-06E2-4F6A-BD81-6039D224EB3F}|Gimnasio\\Gimnasio.csproj|solutionrelative:gimnasio\\views\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D7903E8-1E0B-4645-AF8C-D305913A93A4}|Datos\\Datos.csproj|G:\\damdaw2\\proyecto ESTE\\gymGroupC\\datos\\repositories\\usuariosrepositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D7903E8-1E0B-4645-AF8C-D305913A93A4}|Datos\\Datos.csproj|solutionrelative:datos\\repositories\\usuariosrepositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D32911F2-0AAC-47C3-B99C-9CCD7D5ED187}|Negocio\\Negocio.csproj|G:\\damdaw2\\proyecto ESTE\\gymGroupC\\negocio\\management\\usuariosmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D32911F2-0AAC-47C3-B99C-9CCD7D5ED187}|Negocio\\Negocio.csproj|solutionrelative:negocio\\management\\usuariosmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{929AF8A9-06E2-4F6A-BD81-6039D224EB3F}|Gimnasio\\Gimnasio.csproj|G:\\damdaw2\\proyecto ESTE\\gymGroupC\\gimnasio\\views\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{929AF8A9-06E2-4F6A-BD81-6039D224EB3F}|Gimnasio\\Gimnasio.csproj|solutionrelative:gimnasio\\views\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{929AF8A9-06E2-4F6A-BD81-6039D224EB3F}|Gimnasio\\Gimnasio.csproj|G:\\damdaw2\\proyecto ESTE\\gymGroupC\\gimnasio\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{929AF8A9-06E2-4F6A-BD81-6039D224EB3F}|Gimnasio\\Gimnasio.csproj|solutionrelative:gimnasio\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{929AF8A9-06E2-4F6A-BD81-6039D224EB3F}|Gimnasio\\Gimnasio.csproj|G:\\damdaw2\\proyecto ESTE\\gymGroupC\\gimnasio\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{929AF8A9-06E2-4F6A-BD81-6039D224EB3F}|Gimnasio\\Gimnasio.csproj|solutionrelative:gimnasio\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D32911F2-0AAC-47C3-B99C-9CCD7D5ED187}|Negocio\\Negocio.csproj|G:\\damdaw2\\proyecto ESTE\\gymGroupC\\negocio\\management\\pruebadeconexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D32911F2-0AAC-47C3-B99C-9CCD7D5ED187}|Negocio\\Negocio.csproj|solutionrelative:negocio\\management\\pruebadeconexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D7903E8-1E0B-4645-AF8C-D305913A93A4}|Datos\\Datos.csproj|G:\\damdaw2\\proyecto ESTE\\gymGroupC\\datos\\repositories\\pruebadeconexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D7903E8-1E0B-4645-AF8C-D305913A93A4}|Datos\\Datos.csproj|solutionrelative:datos\\repositories\\pruebadeconexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{929AF8A9-06E2-4F6A-BD81-6039D224EB3F}|Gimnasio\\Gimnasio.csproj|G:\\damdaw2\\proyecto ESTE\\gymGroupC\\gimnasio\\views\\login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{929AF8A9-06E2-4F6A-BD81-6039D224EB3F}|Gimnasio\\Gimnasio.csproj|solutionrelative:gimnasio\\views\\login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UsuariosRepositories.cs",
+              "DocumentMoniker": "G:\\damdaw2\\proyecto ESTE\\gymGroupC\\Datos\\Repositories\\UsuariosRepositories.cs",
+              "RelativeDocumentMoniker": "Datos\\Repositories\\UsuariosRepositories.cs",
+              "ToolTip": "G:\\damdaw2\\proyecto ESTE\\gymGroupC\\Datos\\Repositories\\UsuariosRepositories.cs",
+              "RelativeToolTip": "Datos\\Repositories\\UsuariosRepositories.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAewBMAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T15:23:00.319Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Register.cs",
+              "DocumentMoniker": "G:\\damdaw2\\proyecto ESTE\\gymGroupC\\Gimnasio\\Views\\Register.cs",
+              "RelativeDocumentMoniker": "Gimnasio\\Views\\Register.cs",
+              "ToolTip": "G:\\damdaw2\\proyecto ESTE\\gymGroupC\\Gimnasio\\Views\\Register.cs",
+              "RelativeToolTip": "Gimnasio\\Views\\Register.cs",
+              "ViewState": "AgIAAGsAAAAAAAAAAAAqwIIAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T14:59:26.192Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Register.cs [Dise\u00F1o]",
+              "DocumentMoniker": "G:\\damdaw2\\proyecto ESTE\\gymGroupC\\Gimnasio\\Views\\Register.cs",
+              "RelativeDocumentMoniker": "Gimnasio\\Views\\Register.cs",
+              "ToolTip": "D:\\damdaw2\\proyecto ESTE\\gymGroupC\\Gimnasio\\Views\\Register.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T14:58:56.311Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UsuariosManagement.cs",
+              "DocumentMoniker": "G:\\damdaw2\\proyecto ESTE\\gymGroupC\\Negocio\\Management\\UsuariosManagement.cs",
+              "RelativeDocumentMoniker": "Negocio\\Management\\UsuariosManagement.cs",
+              "ToolTip": "G:\\damdaw2\\proyecto ESTE\\gymGroupC\\Negocio\\Management\\UsuariosManagement.cs",
+              "RelativeToolTip": "Negocio\\Management\\UsuariosManagement.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAkwBIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T15:32:05.628Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PruebaDeConexion.cs",
+              "DocumentMoniker": "G:\\damdaw2\\proyecto ESTE\\gymGroupC\\Negocio\\Management\\PruebaDeConexion.cs",
+              "RelativeDocumentMoniker": "Negocio\\Management\\PruebaDeConexion.cs",
+              "ToolTip": "G:\\damdaw2\\proyecto ESTE\\gymGroupC\\Negocio\\Management\\PruebaDeConexion.cs",
+              "RelativeToolTip": "Negocio\\Management\\PruebaDeConexion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T15:34:06.532Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "G:\\damdaw2\\proyecto ESTE\\gymGroupC\\Gimnasio\\Form1.cs",
+              "RelativeDocumentMoniker": "Gimnasio\\Form1.cs",
+              "ToolTip": "G:\\damdaw2\\proyecto ESTE\\gymGroupC\\Gimnasio\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Gimnasio\\Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T14:59:02.615Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "G:\\damdaw2\\proyecto ESTE\\gymGroupC\\Gimnasio\\Form1.cs",
+              "RelativeDocumentMoniker": "Gimnasio\\Form1.cs",
+              "ToolTip": "G:\\damdaw2\\proyecto ESTE\\gymGroupC\\Gimnasio\\Form1.cs",
+              "RelativeToolTip": "Gimnasio\\Form1.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAkwB4AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T15:03:01.605Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PruebaDeConexion.cs",
+              "DocumentMoniker": "G:\\damdaw2\\proyecto ESTE\\gymGroupC\\Datos\\Repositories\\PruebaDeConexion.cs",
+              "RelativeDocumentMoniker": "Datos\\Repositories\\PruebaDeConexion.cs",
+              "ToolTip": "G:\\damdaw2\\proyecto ESTE\\gymGroupC\\Datos\\Repositories\\PruebaDeConexion.cs",
+              "RelativeToolTip": "Datos\\Repositories\\PruebaDeConexion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T15:22:29.727Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Login.Designer.cs",
+              "DocumentMoniker": "G:\\damdaw2\\proyecto ESTE\\gymGroupC\\Gimnasio\\Views\\Login.Designer.cs",
+              "RelativeDocumentMoniker": "Gimnasio\\Views\\Login.Designer.cs",
+              "ToolTip": "G:\\damdaw2\\proyecto ESTE\\gymGroupC\\Gimnasio\\Views\\Login.Designer.cs",
+              "RelativeToolTip": "Gimnasio\\Views\\Login.Designer.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAiwE0AAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T15:03:29.73Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
